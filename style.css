@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+   
+}
+body
+{
+    background-color: rgb(250, 247, 247);
+}
+.main
+{    
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    height: 2300px;
+}
+.topline
+{
+    width: 100%;
+    height: 8px;;
+    z-index: 1010;
+    background:linear-gradient(90deg, rgb(100, 91, 83) 0%, rgb(235, 82, 82) 18.23%, rgb(247, 143, 47) 34.37%, rgb(244, 193, 81) 48.96%, rgb(82, 187, 118) 66.15%, rgb(38, 165, 215) 82.29%, rgb(224, 105, 183) 100%);
+}
+.navbar
+{   margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height:74px;
+    display:flex;
+   
+}
+.icon
+{
+    margin-left: 25pX;
+     align-items: center;
+    height: 70px;
+    width: 110px;
+    
+}
+    .log
+    {  
+         width: 90px;
+        height: 50px;
+        color: blue;
+        margin-top:10px;
+    }
+    .navicons
+    {
+        margin: 0%;
+       margin-top: 26px;
+        font-size: 1.0rem;
+        color: #000;
+    }
+    .navicons1
+    {
+        margin-left: 20px;
+       margin-top: 26px;
+        font-size: 1.0rem; 
+        color: #000;
+    }
+    .navicons2
+    {
+        margin-left: 10px;
+       margin-top: 26px;
+        font-size: 1.0rem; 
+        color: #000;
+    }
+       
+    .round {
+        width: 100%;
+        height: 38px;
+        border-radius: 30px;
+        border: 1px #000 solid;
+        padding: 5px 5px 5px 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+       
+       
+    }
+    
+     .corner {
+        position: absolute;
+        top: 13px;
+        left: 9px;
+        height: 25px;
+        width: 25px;
+        
+        border-radius: 30px;
+        border: none;
+        margin-right: 10px;
+     }
+    .searchicons
+    {
+        position: relative;
+        width: 680px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-right: 60px;
+        
+    }
+    .cart
+    {
+        height: 20px;
+        width: 20px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .button-nav
+    {
+        background-color:white;
+        width: 80px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 25px;
+        border-color:#1c1d1f;
+        font-family:  udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+        font-weight: bold;
+    }
+    .button-nav2
+    {
+        background-color:rgb(0, 0, 0);
+        color: white;
+        width: 80px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 10px; 
+        font-family:  udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+        font-weight: bold;
+    }
+    .button-nav3
+    {
+        width: 43px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 5px; 
+        background-color: white;
+    }
+    .glob
+    {
+        width: 16px;
+        height: 16px;
+        margin-top: 2px;
+       
+    }
+    .menu
+    {
+        width:10px;
+        float:left;
+        height: 70px;
+        padding-left: 20px;
+      
+    }
+    .search
+    {
+        width: 400px;
+        float:;
+        margin-left: 300px;
+    }
+    .srch
+    {
+        font-family: 'Times New Roman';
+        width: 200px;
+        height:40px;
+
+    }
+.image1
+{
+    margin: 80px;
+    margin-top: 0%;
+    margin-bottom :0%;
+}
+.img1
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding-right: 0;
+}
+.main-h
+{
+    box-sizing: border-box;
+    padding-left:15px;
+    margin:  100px;
+    margin-top: 40px;
+    margin: right 0;
+    margin-bottom:0;
+    width: 80%;
+}
+.main-head
+{
+    max-width:80rem;
+    font-family:SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height:1.25;
+    letter-spacing:  -0.05em;
+}
+.main-sub-head
+{
+    font-size: 1.3rem;
+}
+.maincourse
+{   margin: 120px;
+    margin-top:  10px;
+    margin-bottom:0;
+    width: 60%;
+    height: 50px;
+}
+.ul2course
+{
+    width:100%;
+    height: 32px;
+    float: left;
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    grid-gap:2.0rem;
+  
+} 
+.maincourseli
+{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #1c1d1f;
+    margin: 0;
+}
+.link-maincourse
+{
+    font-family:  udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    color: #353f47;
+    font-weight:bold;
+}
+.listcourse
+{   
+   
+    padding: 10px;
+    margin: 125px;
+    margin-right:0;
+    margin-top:  0;;
+    margin-bottom :300px;
+
+}
+.borderin
+{   
+    margin:25pX;
+    box-sizing: border-box;
+    border-color: #000;
+    
+}
+.expand
+{   
+    margin-top:0px;
+    margin-bottom:0;
+    font-size: 2.0rem;
+    font-family: udemy sans,sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    
+}
+.paragraph
+{
+    margin-bottom:  15px;
+    font-size:inherit;
+    font-weight:400 ;
+    max-width: 60rem;
+    margin-top: 5px;
+    
+}
+.bt1
+{
+    width: 130px;
+    height: 40px;
+    margin-bottom:  30px;
+    color: black;
+    border-color: black;
+    padding: 0.1rem;
+    padding-left: 0.1rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+.imgc
+{   
+    grid-gap:1.5rem;
+    margin: 0%;
+    border: 0;
+    width:80%;
+    height: 135px;
+    float: left;
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    
+   
+}
+.imgli
+{  
+    grid-gap:0rem;
+    border: 0;
+    margin: 0;
+    width: 220px;
+    height: 140pX;
+    
+}
+.prizecourse
+{
+    color: #1c1d1f;
+    font-weight: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.0rem;
+    text-decoration: none;
+    font-family: udemy sans,sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;;
+}
+.imagesize
+{
+    width: 220px;
+    height: 140px;
+}
+.studensarev
+{
+    font-family: udemy sans,sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -.02rem;
+    font-size: 1.5rem;
+    margin-left: 150px;
+    margin-top:  10px;;
+
+}
+.imgc2
+{   
+    grid-gap:1.5rem;
+    margin: 0%;
+    border: 0;
+    width:80%;
+    height: 135px;
+    float: left;
+    display:flex;
+    align-items: center;
+    margin-left: 150px;
+    list-style-type: none;
+    width: 70%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.topcategories
+{
+    font-family: udemy sans,sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -.02rem;
+    font-size: 1.5rem;
+    margin-left: 150px;
+    width: 70%;
+    margin-bottom:100px;
+}
+.categoriesul
+{
+    grid-gap:1.0rem;
+    margin: 0%;
+    border: 0;
+    width:70%;
+    height: 135px;
+    float: left;
+    display:flex;
+    align-items: center;
+    margin-left: 150px;
+    list-style-type: none;
+    margin-bottom: 200px;
+}
+.categoriesli
+{
+    grid-gap:0rem;
+    border: 0;
+    margin: 0;
+    width: 300px;
+    height: 300pX;
+    
+}
+.imagesizecategories
+{
+    width: 300px;
+    height: 300px;
+}
+.man
+{
+    background-color: rgb(255, 255, 255);
+ width: 1517px;
+ height:540px;
+ display:flex;
+ 
+}
+.manpic2
+{
+    width: 400px;
+    margin-left: 320px;
+    margin-top: 60px;
+}
+.become
+{   
+    margin-left: 80px;
+    width: 100%;
+    margin-top: 160px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    font-size: 1.7rem;
+    letter-spacing: -.05rem;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+ color: #000;
+}
+.paragraph1
+{
+    border: 0;
+    padding: 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family:  udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px;
+}
+.button3
+{
+    margin-left: 80px;
+    height: 40px;
+    width: 160px;
+    background-color: #1c1d1f;
+    color: white;
+    font-weight: bold;
+    font-size:13px ;
+    
+}
+.company
+{
+    
+    height: 50px;
+}
+.udemybusiness
+{
+  width: 100%;
+  height:500px ;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+}
+.udemybusiness-main
+{
+    height:500px ;
+    width:100% ;
+}
+.udemybusiness-pic
+{
+    height: 50px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 160px;
+}
+.paragraph2
+{
+    margin-left: 300px;
+    font-family:  udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px;
+}
+.button4
+{
+    margin-left: 300px;
+    height: 40px;
+    width: 160px;
+    background-color: #1c1d1f;
+    color: white;
+    font-weight: bold;
+    font-size:13px ;
+    margin-top: 10px;
+}
+.udemybusiness-main2
+{
+    width: 100%;
+    height: 800px;
+}
+.udemy-business-pic-3
+{
+    margin-top: 30px;
+}
+.transferm
+{
+  width: 100%;
+  height:500px ;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+}
+.transferm-pic
+{
+    margin-left:300px;
+}
+.transferm2
+{
+
+}
+.transferm-text
+{
+    margin-left: 80px;
+    width: 100%;
+    margin-top: 70px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2.0rem;
+    letter-spacing: -.05rem;
+}
+.transferm-paragraph
+{
+    font-family:  udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.button-transferm
+{
+    margin-left: 80px;
+    height: 50px;
+    width: 130px;
+    background-color: #1c1d1f;
+    color: white;
+    font-weight: bold;
+    font-size:13px ;
+    margin-top: 10px;
+}
+.foot
+{
+  width: 100%;
+  height: 280px;
+  background-color:#1c1d1f;
+}
+.foot-list
+{
+    margin-left: 30px;
+    border-spacing: 10px;
+    
+}
+.table-foot
+{  
+    height: 200px;
+    width: 80%;
+    margin-top: 20px;
+    
+}
+table
+{
+    margin-left: 60px;
+    padding-top: 20px;
+    height: 170px;
+    
+}
+td
+{
+    width: 250px;
+}
+a:link
+{
+    color: rgb(229, 193, 193);
+
+}
